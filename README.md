@@ -1,52 +1,14 @@
-[Project Website](http://mk270.github.io/whitakers-words/)
-
-WORDS
+Sapiens Optio Core
 =====
-
-This is a cleaned-up version of the port of William Whitaker's WORDS
-programme, a Latin-English dictionary with inflectional morphology
-support; the original author passed away in 2010, so any and all help
-maintaining the software as development and execution environments evolve
-would be greatly appreciated.
-
-Effectively, this is an exercise in digital preservation.
-
-Contributing
-============
-
-Help is needed maintaining the code for future users; in particular, it
-does not currently support vowel length, so it may be necessary to gather
-a group of Latin experts to adjust its lexicon of several thousand words.
-
-If you contribute, please be sure to indicate your assent to redistributing
-your contributions under the same terms as the existing software; this
-will minimise copyright hassles in the future.
-
-Usage
-=====
-
-    $ make
-    $ bin/words
-
-Documentation
-=============
-
-See the wordsdoc.htm file included.
-
-Build-time Dependencies
-=======================
-
-* GPRBuild
-* gnat
-
-On a Debian-like system, you can install these roughly as follows:
+http://www.sapiensoptio.com/
 
     $ apt-get install gprbuild gnat
+    $ make
+    $ bin/words
+<b>GNAT versions before 4.9 are believed to link against a buggy runtime on
+64-bit platforms, so should be avoided.</b>
 
-GNAT versions before 4.9 are believed to link against a buggy runtime on
-64-bit platforms, so should be avoided.
-
-Licensing
+Licence
 =========
 
 WORDS, a Latin dictionary, by Colonel William Whitaker (USAF, Retired)
